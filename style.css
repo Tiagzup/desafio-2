@@ -1,33 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color: rgb(109, 112, 112);
-    color: white;
-}
-#teste {
-    width: 1800px;
-    height: 1500px;
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/171/509/86/king-of-fighters-lost-saga-iori-yagami-kyo-kusanagi-wallpaper-preview.jpg');
+body {
+    /*background-color: white;*/
+    /*background-image: url('kingof.jpg');*/
+    background: #000428; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #000428, #004e92); 
+    background: linear-gradient(to bottom, #0b0f2e, #004e92);
+    opacity: 1;
+    filter: alpha(opacity=50);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
+    
 }
-.menu {
+div#menu{
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0;
+    height: 100px;
 }
-.list {
-    color: black;
+* {
+    margin: 0%;
+    padding: 0%;
 }
+div#lista {
+    flex-direction: flex-end;
+}
+td {
+ width: 1400px;
+ color: black;
 
-/*.banner {
-    background-image: url('fundo.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}*/
+}
