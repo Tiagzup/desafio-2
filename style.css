@@ -9,6 +9,7 @@ body {
     background-size: cover;
     color: white;
     font-size: 30px;
+    height: 100vh;
 }
 header {
     background-color: rgba(165, 42, 42, 0.37);
@@ -42,6 +43,10 @@ td img {
 }
 table#tabela {
     border: 1px solid gray;
+    max-height: 70vh;
+    display: block;
+    overflow-y: auto;
+    width: 100vh;
     border-radius: 20px;
     text-align: center;
     margin-left: auto;
